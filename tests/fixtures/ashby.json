@@ -1,0 +1,19 @@
+{"jobs": [
+  {"id": "b-1", "title": "Software Engineer", "location": "New York", "jobUrl": "https://jobs.ashbyhq.com/example/b-1",
+   "shouldDisplayCompensationOnJobPostings": true,
+   "compensation": {"compensationTiers": [{"components": [
+      {"compensationType": "EquityPercentage", "interval": "NONE", "currencyCode": null, "minValue": null, "maxValue": null, "summary": "Offers Equity"},
+      {"compensationType": "Salary", "interval": "1 YEAR", "currencyCode": "USD", "minValue": 211400, "maxValue": 290600, "summary": "$211.4K – $290.6K"}]}]}},
+  {"id": "b-2", "title": "Account Executive", "location": "San Francisco", "jobUrl": "https://jobs.ashbyhq.com/example/b-2",
+   "shouldDisplayCompensationOnJobPostings": true,
+   "compensation": {"compensationTiers": [
+      {"components": [{"compensationType": "Salary", "interval": "1 YEAR", "currencyCode": "USD", "minValue": 90000, "maxValue": 110000, "summary": "$90K – $110K"},
+                      {"compensationType": "Commission", "interval": "1 YEAR", "currencyCode": "USD", "minValue": 90000, "maxValue": 110000, "summary": "$90K – $110K"}]},
+      {"components": [{"compensationType": "Salary", "interval": "1 MONTH", "currencyCode": "EUR", "minValue": 5000, "maxValue": 6000, "summary": "€5K – €6K"}]}]}},
+  {"id": "b-3", "title": "Partner Manager", "location": "Remote", "jobUrl": "https://jobs.ashbyhq.com/example/b-3",
+   "shouldDisplayCompensationOnJobPostings": false,
+   "descriptionPlain": "The salary range for this role is $150K - $180K."},
+  {"id": "b-4", "title": "Designer", "location": "Remote", "jobUrl": "https://jobs.ashbyhq.com/example/b-4",
+   "shouldDisplayCompensationOnJobPostings": true, "compensation": {"compensationTiers": [], "summaryComponents": []},
+   "descriptionPlain": "Join us."}
+]}

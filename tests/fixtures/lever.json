@@ -1,0 +1,14 @@
+[
+  {"id": "aaa-1", "text": "Robotics Technician", "hostedUrl": "https://jobs.lever.co/example/aaa-1",
+   "categories": {"location": "Dallas, TX"},
+   "salaryRange": {"min": 40, "max": 63, "currency": "USD", "interval": "per-hour-wage"},
+   "descriptionPlain": "Build things."},
+  {"id": "aaa-2", "text": "Firmware Engineer", "hostedUrl": "https://jobs.lever.co/example/aaa-2",
+   "categories": {"location": "Foster City, CA"},
+   "salaryRange": {"min": 123000, "max": 168000, "currency": "USD", "interval": "per-year-salary"}},
+  {"id": "aaa-3", "text": "Student Worker", "hostedUrl": "https://jobs.lever.co/example/aaa-3",
+   "categories": {"location": "Boston, MA"},
+   "descriptionPlain": "Hourly pay: $25 - $32 per hour, depending on experience."},
+  {"id": "aaa-4", "text": "Program Manager", "hostedUrl": "https://jobs.lever.co/example/aaa-4",
+   "categories": {"location": "Remote"}, "descriptionPlain": "Competitive pay."}
+]

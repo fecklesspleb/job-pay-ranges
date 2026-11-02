@@ -1,0 +1,19 @@
+{"jobs": [
+  {"id": 101, "title": "Support Engineer", "absolute_url": "https://example.com/jobs/101",
+   "location": {"name": "Toronto, Canada"},
+   "pay_input_ranges": [{"min_cents": 5800000, "max_cents": 6800000, "currency_type": "CAD",
+                         "title": "Canada Annual Pay Range", "blurb": "<p>Base pay only.</p>"}],
+   "content": "&lt;p&gt;No range written here.&lt;/p&gt;"},
+  {"id": 102, "title": "Data Analyst", "absolute_url": "https://example.com/jobs/102",
+   "location": {"name": "Remote, US"},
+   "pay_input_ranges": [{"min_cents": 10000000, "max_cents": 12000000, "currency_type": "USD",
+                         "title": "Pay Range", "blurb": "&lt;p&gt;The base pay range shown below is annualized.&lt;/p&gt;"},
+                        {"min_cents": 9000000, "max_cents": 11000000, "currency_type": "USD",
+                         "title": "Pay Range", "blurb": ""}],
+   "content": ""},
+  {"id": 103, "title": "Site Engineer", "absolute_url": "https://example.com/jobs/103",
+   "location": {"name": "Austin, TX"}, "pay_input_ranges": [],
+   "content": "&lt;p&gt;For Austin based hires: Estimated annual salary of $120,000&amp;nbsp;- $150,000.&lt;/p&gt;&lt;p&gt;For Lisbon based hires: Estimated annual salary of €60.000 - €75.000.&lt;/p&gt;"},
+  {"id": 104, "title": "Office Coordinator", "absolute_url": "https://example.com/jobs/104",
+   "location": {"name": "London"}, "content": "&lt;p&gt;Great team, great snacks.&lt;/p&gt;"}
+]}
