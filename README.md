@@ -74,5 +74,3 @@ These are public endpoints that companies use to power their own careers pages. 
 ## License and disclaimers
 
 MIT. See [LICENSE](LICENSE). This code and README were written with AI assistance. Not affiliated with or endorsed by Greenhouse, Lever or Ashby.
-
-If you want this on a schedule with the rest of each job's fields, my Apify Actors read the same boards: [Scrape Greenhouse Jobs: Any Greenhouse Job Board](https://apify.com/fecklesspleb/greenhouse-jobs-scraper), [Scrape Lever Jobs: Any jobs.lever.co Job Board](https://apify.com/fecklesspleb/lever-jobs-scraper) and [Scrape Ashby Jobs: Any jobs.ashbyhq.com Job Board](https://apify.com/fecklesspleb/ashby-jobs-scraper) at $0.001 per job ($1 per 1,000), or [ATS Jobs Scraper API: Multi-ATS Career Page Jobs](https://apify.com/fecklesspleb/ats-jobs-scraper) for several ATSs in one schema at $0.002 per job. I built them and this repo.
