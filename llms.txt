@@ -1,0 +1,23 @@
+# job-pay-ranges
+
+> Single-file Python 3.9+ tool, standard library only and no API keys, that reads published pay ranges from public Greenhouse, Lever and Ashby job boards into one CSV. It reports how many postings on each board state pay and whether each range came from the ATS's structured field or from the job description. MIT license. Maintained by fecklesspleb. Not affiliated with Greenhouse, Lever or Ashby.
+
+Usage: `python3 job_pay_ranges.py greenhouse:cloudflare lever:zoox ashby:ramp --csv pay.csv`. Each argument is `ats:board` (use `lever-eu:` for jobs.eu.lever.co). CSV columns: ats, board, job_id, title, location, url, pay_source (ats, description or none), pay_min, pay_max, currency, interval, annual_min, annual_max (no currency conversion), range_count, pay_text. Greenhouse amounts are in cents and need `pay_transparency=true`. Only Ashby's `Salary` components are used, and unlisted Ashby jobs are skipped. Ranges read from descriptions are heuristic. Treat `none` as "no range this tool could read", not "no pay information".
+
+## Docs
+
+- [README](https://github.com/fecklesspleb/job-pay-ranges/blob/main/README.md): where each ATS keeps pay, CSV columns, description fallback, limits, tests
+- [job_pay_ranges.py](https://github.com/fecklesspleb/job-pay-ranges/blob/main/job_pay_ranges.py): the tool
+- [tests/test_job_pay_ranges.py](https://github.com/fecklesspleb/job-pay-ranges/blob/main/tests/test_job_pay_ranges.py): 25 offline tests
+
+## API sources
+
+- [Greenhouse Job Board API](https://developers.greenhouse.io/job-board.html): `pay_transparency`, `pay_input_ranges`
+- [Lever Postings API](https://github.com/lever/postings-api): `salaryRange`
+- [Ashby public job posting API](https://developers.ashbyhq.com/docs/public-job-posting-api): `includeCompensation`
+
+## Optional
+
+- [Greenhouse Jobs Scraper](https://apify.com/fecklesspleb/greenhouse-jobs-scraper), [Lever Jobs Scraper](https://apify.com/fecklesspleb/lever-jobs-scraper), [Ashby Jobs Scraper](https://apify.com/fecklesspleb/ashby-jobs-scraper): paid Apify Actors by the same author that read the same boards on a schedule, $0.001 per job
+- [ATS Jobs Scraper](https://apify.com/fecklesspleb/ats-jobs-scraper): paid multi-ATS Actor by the same author, $0.002 per job
+- [LICENSE](https://github.com/fecklesspleb/job-pay-ranges/blob/main/LICENSE): MIT
